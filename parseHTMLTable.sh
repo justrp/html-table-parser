@@ -62,7 +62,6 @@ for i in $ids ;
 		done
 		
 		IFS=$'\n'; printf "`echo $formatVar`" `echo "$dataVar"`; 
-		echo "printf "`echo $formatVar`" `echo "$dataVar"`";
 	done
 done
 IFS=$oIFS
